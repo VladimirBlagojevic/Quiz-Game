@@ -1,0 +1,120 @@
+.container {
+    max-width: 90rem;
+    margin: 1.5rem auto;   
+    -webkit-box-shadow: var(--shadow-dark);   
+            box-shadow: var(--shadow-dark);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#03a9f4), color-stop(#0aadf6), color-stop(#11b0f8), color-stop(#17b4fa), to(#1db7fc));
+    background-image: linear-gradient(to bottom, #03a9f4, #0aadf6, #11b0f8, #17b4fa, #1db7fc);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 94rem;            
+}     
+
+.header{
+    color:var(--color-white); 
+    padding: 2rem 4rem;   
+    display: -webkit-box;   
+    display: -ms-flexbox;   
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; 
+    -webkit-box-align: center; 
+        -ms-flex-align: center; 
+            align-items: center;   
+    padding-bottom: 9rem;       
+    
+
+    &__user-box{
+        width:11.5rem;  
+        height: 11.5rem;
+        border: 6px solid var(--color-primary-light);
+        border-radius: 50%; 
+        -webkit-box-shadow: var(--shadow-light); 
+                box-shadow: var(--shadow-light); 
+        
+        &--1{
+            background-image: url(../img/user2.jpg);
+            background-position: bottom;
+            background-size: cover;
+        }
+
+        &--2{
+            background-image: url(../img/quiz-coin.png);
+            background-size: cover;
+        } 
+
+        &--3{
+            width: 15rem;
+            height: 15rem;
+            margin-top: -3rem;
+        }
+    }
+
+    &__countdown-box{
+        -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+        width: 13rem;
+        height: 13rem; 
+        border: 1.6rem solid var(--color-white);
+        border-radius: 50%; 
+        display: -webkit-box; 
+        display: -ms-flexbox; 
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin: 0 4rem;
+        
+    }
+
+    &__countdown-number{
+        -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);  
+        font-size: 4.5rem;    
+    } 
+
+    &__text-box{
+        font-weight: 400;
+        font-size: 3rem;
+        letter-spacing: 1px;
+        -ms-flex-item-align: start;
+            align-self: flex-start;
+
+        &--1{
+            margin-left: -3rem;
+        }
+
+        &--2{
+            text-transform: uppercase;
+        }
+    }
+
+    &__user-name{
+        margin-top: 2rem;
+    }
+    &__score{
+        margin-top: 2rem;
+    }
+    &__score-text{
+        display: block; 
+        font-size: 6rem;
+        text-align: right;
+        margin-top: -2rem;
+    }
+}
+
+.question-section{
+    width: 100%;
+    height: 100%;  
+}
+
+.cards-container{
+    width: 60%;   
+    height: 64rem;
+    margin:0 auto; 
+    position: relative;  
+}

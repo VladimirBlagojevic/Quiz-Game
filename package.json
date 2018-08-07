@@ -1,0 +1,14 @@
+{
+  "name": "quizgame",
+  "version": "1.0.0",
+  "description": "small quiz game to practice js learned in udemy course",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass scss/main.scss css/style.css -w"
+  },
+  "author": "Vladimir B.",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
