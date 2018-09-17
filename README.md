@@ -1,6 +1,6 @@
 # Quiz Game
 
-![Project Image](img/quiz.gif)
+<img src="img/quiz.gif" width="400" height="450">
 
 >  Website - [Quiz Game]( https://vladimirblagojevic.github.io/Quiz-Game/)
 
